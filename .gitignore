@@ -1,0 +1,23 @@
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies/build output
+frontend/node_modules/
+frontend/dist/
+
+# Python caches/virtualenvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime storage and local databases
+backend/storage/uploads/
+backend/storage/exports/
+backend/db.sqlite3
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
